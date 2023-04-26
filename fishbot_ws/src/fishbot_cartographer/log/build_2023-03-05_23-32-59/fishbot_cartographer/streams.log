@@ -1,0 +1,60 @@
+[0.028s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer
+[0.165s] -- The C compiler identification is GNU 9.4.0
+[0.274s] -- The CXX compiler identification is GNU 9.4.0
+[0.276s] -- Check for working C compiler: /usr/bin/cc
+[0.450s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.451s] -- Detecting C compiler ABI info
+[0.619s] -- Detecting C compiler ABI info - done
+[0.635s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.639s] -- Check for working CXX compiler: /usr/bin/c++
+[0.803s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.807s] -- Detecting CXX compiler ABI info
+[0.989s] -- Detecting CXX compiler ABI info - done
+[1.040s] -- Detecting CXX compile features
+[1.044s] -- Detecting CXX compile features - done
+[1.053s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.133s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.133s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.359s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.573s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.587s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.587s] -- Configured cppcheck include dirs: 
+[1.588s] -- Configured cppcheck exclude dirs and/or files: 
+[1.596s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.597s] -- Configured cpplint exclude dirs and/or files: 
+[1.599s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.601s] -- Added test 'lint_cmake' to check CMake code style
+[1.604s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.611s] -- Added test 'uncrustify' to check C / C++ code style
+[1.612s] -- Configured uncrustify additional arguments: 
+[1.614s] -- Added test 'xmllint' to check XML markup files
+[1.618s] -- Configuring done
+[1.625s] -- Generating done
+[1.628s] -- Build files have been written to: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer
+[1.644s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer
+[1.653s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer -- -j4 -l4
+[1.779s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer -- -j4 -l4
+[1.918s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer
+[1.935s] -- Install configuration: ""
+[1.935s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/config
+[1.936s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/config/fishbot_2d.lua
+[1.936s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/launch
+[1.936s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/launch/cartographer.launch.py
+[1.936s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/rviz
+[1.937s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/ament_index/resource_index/package_run_dependencies/fishbot_cartographer
+[1.937s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/ament_index/resource_index/parent_prefix_path/fishbot_cartographer
+[1.937s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/environment/ament_prefix_path.sh
+[1.938s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/environment/ament_prefix_path.dsv
+[1.938s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/environment/path.sh
+[1.938s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/environment/path.dsv
+[1.939s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.bash
+[1.939s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.sh
+[1.939s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.zsh
+[1.939s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.dsv
+[1.941s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv
+[1.941s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/ament_index/resource_index/packages/fishbot_cartographer
+[1.945s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/cmake/fishbot_cartographerConfig.cmake
+[1.945s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/cmake/fishbot_cartographerConfig-version.cmake
+[1.945s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/install/fishbot_cartographer/share/fishbot_cartographer/package.xml
+[1.954s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/fishbot_ws/src/fishbot_cartographer/build/fishbot_cartographer

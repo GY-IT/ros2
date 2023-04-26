@@ -1,0 +1,3 @@
+make[2]: *** [test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/build.make:63: test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o] 中断
+make[1]: *** [CMakeFiles/Makefile2:1412: test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/all] 中断
+make: *** [Makefile:141: all] 中断

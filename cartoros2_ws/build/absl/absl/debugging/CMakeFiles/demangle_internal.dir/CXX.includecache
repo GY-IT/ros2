@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ros2/ros2_learn/cartoros2_ws/abseil-cpp/absl/debugging/internal/demangle.cc
+absl/debugging/internal/demangle.h
+/home/ros2/ros2_learn/cartoros2_ws/abseil-cpp/absl/debugging/internal/absl/debugging/internal/demangle.h
+cstdint
+-
+cstdio
+-
+limits
+-
+
+/home/ros2/ros2_learn/cartoros2_ws/abseil-cpp/absl/debugging/internal/demangle.h
+

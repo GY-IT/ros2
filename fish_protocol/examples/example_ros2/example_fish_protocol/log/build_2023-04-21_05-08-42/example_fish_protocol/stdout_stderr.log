@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target example_fish_protocol[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/example_fish_protocol.dir/src/example_fish_protocol.cpp.o[0m
+[100%] [32m[1mLinking CXX executable example_fish_protocol[0m
+[100%] Built target example_fish_protocol
+-- Install configuration: ""
+-- Installing: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/lib/example_fish_protocol/example_fish_protocol
+-- Set runtime path of "/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/lib/example_fish_protocol/example_fish_protocol" to ""
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/package_run_dependencies/example_fish_protocol
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/parent_prefix_path/example_fish_protocol
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/path.sh
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/path.dsv
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.bash
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.sh
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.zsh
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.dsv
+-- Installing: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/package.dsv
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/packages/example_fish_protocol
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/cmake/example_fish_protocolConfig.cmake
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/cmake/example_fish_protocolConfig-version.cmake
+-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/package.xml

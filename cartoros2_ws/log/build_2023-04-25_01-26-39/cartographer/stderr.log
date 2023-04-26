@@ -1,0 +1,16 @@
+CMake Warning at /usr/src/googletest/googlemock/CMakeLists.txt:43 (project):
+  VERSION keyword not followed by a value or was followed by a value that
+  expanded to nothing.
+
+
+CMake Warning at /usr/src/googletest/googletest/CMakeLists.txt:54 (project):
+  VERSION keyword not followed by a value or was followed by a value that
+  expanded to nothing.
+
+
+make[2]: *** [CMakeFiles/cartographer.dir/build.make:1091: CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d.cc.o] 中断
+make[2]: *** [CMakeFiles/cartographer.dir/build.make:1052: CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.cc.o] 中断
+make[2]: *** [CMakeFiles/cartographer.dir/build.make:1039: CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/ray_to_pixel_mask.cc.o] 中断
+make[2]: *** [CMakeFiles/cartographer.dir/build.make:1078: CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc.o] 中断
+make[1]: *** [CMakeFiles/Makefile2:1202: CMakeFiles/cartographer.dir/all] 中断
+make: *** [Makefile:141: all] 中断

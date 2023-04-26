@@ -1,0 +1,26 @@
+[0.054s] Invoking command in '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol -- -j4 -l4
+[0.149s] [35m[1mScanning dependencies of target example_fish_protocol[0m
+[0.187s] [ 50%] [32mBuilding CXX object CMakeFiles/example_fish_protocol.dir/src/example_fish_protocol.cpp.o[0m
+[9.289s] [100%] [32m[1mLinking CXX executable example_fish_protocol[0m
+[9.572s] [100%] Built target example_fish_protocol
+[9.603s] Invoked command in '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol -- -j4 -l4
+[9.680s] Invoking command in '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol
+[9.698s] -- Install configuration: ""
+[9.699s] -- Installing: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/lib/example_fish_protocol/example_fish_protocol
+[9.701s] -- Set runtime path of "/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/lib/example_fish_protocol/example_fish_protocol" to ""
+[9.702s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/package_run_dependencies/example_fish_protocol
+[9.703s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/parent_prefix_path/example_fish_protocol
+[9.703s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/ament_prefix_path.sh
+[9.704s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/ament_prefix_path.dsv
+[9.704s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/path.sh
+[9.705s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/path.dsv
+[9.705s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.bash
+[9.705s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.sh
+[9.706s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.zsh
+[9.706s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.dsv
+[9.706s] -- Installing: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/package.dsv
+[9.706s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/packages/example_fish_protocol
+[9.706s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/cmake/example_fish_protocolConfig.cmake
+[9.713s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/cmake/example_fish_protocolConfig-version.cmake
+[9.713s] -- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/package.xml
+[9.714s] Invoked command in '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol

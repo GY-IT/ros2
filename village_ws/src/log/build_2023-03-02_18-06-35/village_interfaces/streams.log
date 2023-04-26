@@ -1,0 +1,237 @@
+[0.076s] Invoking command in '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces -- -j4 -l4
+[0.184s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.288s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.288s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.573s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.699s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.766s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.913s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.679s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[3.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.216s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.217s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[4.288s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.288s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.289s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.524s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.560s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.564s] -- Added test 'lint_cmake' to check CMake code style
+[4.567s] -- Added test 'xmllint' to check XML markup files
+[4.580s] -- Configuring done
+[4.826s] -- Generating done
+[4.846s] -- Build files have been written to: /home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces
+[4.948s] [35m[1mScanning dependencies of target village_interfaces__cpp[0m
+[4.981s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.998s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.326s] [  5%] Built target village_interfaces__cpp
+[6.418s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.427s] [35m[1mScanning dependencies of target village_interfaces__rosidl_generator_c[0m
+[6.439s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.461s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.566s] [ 15%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[6.900s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o[0m
+[7.189s] [ 20%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[7.512s] [ 20%] Built target village_interfaces__rosidl_generator_c
+[7.641s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.175s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp[0m
+[8.353s] [ 25%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o[0m
+[8.629s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_cpp[0m
+[8.761s] [ 28%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o[0m
+[8.986s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[9.248s] [ 30%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o[0m
+[9.918s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c[0m
+[10.049s] [ 33%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[10.336s] [ 35%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o[0m
+[10.594s] [ 38%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[10.640s] [ 41%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.839s] [ 41%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[10.893s] [ 43%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o[0m
+[10.950s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.564s] [ 48%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o[0m
+[12.494s] [ 51%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[12.611s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c[0m
+[12.727s] [ 53%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o[0m
+[12.816s] [ 53%] Built target village_interfaces__rosidl_typesupport_cpp
+[12.896s] [ 56%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[13.001s] [ 58%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.131s] [ 61%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[13.325s] [ 61%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[13.379s] [ 61%] Built target village_interfaces__rosidl_typesupport_c
+[13.722s] [ 64%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.051s] [ 64%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.098s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.163s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c[0m
+[15.237s] [ 69%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o[0m
+[15.240s] [ 71%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o[0m
+[16.508s] [ 74%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[16.817s] [ 74%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[16.896s] [ 74%] Built target village_interfaces
+[16.949s] [35m[1mScanning dependencies of target village_interfaces__py[0m
+[16.997s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.163s] [ 76%] Built target village_interfaces__py
+[19.204s] [35m[1mScanning dependencies of target village_interfaces__python[0m
+[19.267s] [ 79%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o[0m
+[19.288s] [ 82%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o[0m
+[19.638s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__python.so[0m
+[19.806s] [ 84%] Built target village_interfaces__python
+[19.848s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c__pyext[0m
+[19.868s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[19.888s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[19.957s] [ 87%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[19.962s] [ 89%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.985s] [ 92%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.400s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.422s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.584s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.678s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[20.751s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[20.788s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[20.833s] Invoked command in '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces -- -j4 -l4
+[21.140s] Invoking command in '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces
+[21.166s] -- Install configuration: ""
+[21.167s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[21.168s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces
+[21.169s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg
+[21.169s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail
+[21.170s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.h
+[21.170s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.h
+[21.170s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.c
+[21.171s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.h
+[21.171s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/novel.h
+[21.171s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[21.171s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv
+[21.174s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail
+[21.175s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.h
+[21.176s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.c
+[21.176s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.h
+[21.176s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.h
+[21.176s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/borrow_money.h
+[21.177s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[21.177s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[21.178s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[21.178s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[21.178s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces
+[21.181s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg
+[21.182s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.182s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail
+[21.186s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[21.187s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv
+[21.187s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail
+[21.188s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h
+[21.188s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[21.189s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[21.189s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces
+[21.190s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg
+[21.190s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail
+[21.191s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps
+[21.191s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[21.192s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.192s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv
+[21.193s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail
+[21.193s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp
+[21.194s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/dds_fastrtps
+[21.195s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[21.195s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.196s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces
+[21.196s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg
+[21.197s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.198s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail
+[21.199s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[21.199s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.c
+[21.199s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv
+[21.200s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail
+[21.200s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+[21.200s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.c
+[21.201s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[21.201s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[21.202s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[21.202s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[21.203s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces
+[21.204s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg
+[21.204s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail
+[21.205s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__builder.hpp
+[21.205s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__traits.hpp
+[21.205s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.hpp
+[21.205s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/novel.hpp
+[21.206s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv
+[21.207s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail
+[21.208s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.hpp
+[21.208s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__traits.hpp
+[21.208s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__builder.hpp
+[21.208s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/borrow_money.hpp
+[21.208s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces
+[21.208s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg
+[21.209s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail
+[21.209s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.cpp
+[21.209s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[21.210s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv
+[21.210s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail
+[21.210s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp
+[21.211s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.cpp
+[21.211s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[21.211s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[21.211s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[21.211s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[21.211s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[21.212s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[21.212s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py
+[21.345s] Compiling '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py'...
+[21.363s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg
+[21.366s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/__init__.py
+[21.366s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel.py
+[21.367s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel_s.c
+[21.367s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv
+[21.368s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/__init__.py
+[21.368s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money.py
+[21.368s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money_s.c
+[21.369s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[21.369s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[21.370s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[21.371s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[21.372s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[21.374s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[21.374s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__python.so
+[21.376s] -- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__python.so" to ""
+[21.376s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[21.377s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl
+[21.377s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[21.378s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv
+[21.378s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg
+[21.379s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg
+[21.379s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[21.380s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[21.380s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[21.381s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[21.381s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/path.sh
+[21.384s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[21.385s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/local_setup.bash
+[21.385s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/local_setup.sh
+[21.386s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[21.386s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[21.387s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/package.dsv
+[21.387s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[21.387s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake
+[21.388s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[21.389s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[21.392s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.394s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[21.394s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[21.395s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake
+[21.396s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[21.397s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.398s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[21.398s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[21.399s] -- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[21.399s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.400s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[21.401s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[21.402s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.403s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.403s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.404s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[21.404s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[21.404s] -- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/package.xml
+[21.419s] Invoked command in '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces

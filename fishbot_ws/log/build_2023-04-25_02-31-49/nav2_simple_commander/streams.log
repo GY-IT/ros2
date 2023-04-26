@@ -1,0 +1,81 @@
+[1.591s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/prefix_override:/home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build install --record /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/install.log --install-scripts $base/lib/nav2_simple_commander --single-version-externally-managed
+[1.749s] /home/ros2/.local/lib/python3.8/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.749s]   warnings.warn(
+[1.912s] running egg_info
+[1.912s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[1.930s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.930s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.931s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.931s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.931s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[2.033s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.086s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.087s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.088s] running build
+[2.088s] running build_py
+[2.088s] creating /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build
+[2.088s] creating /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib
+[2.089s] creating /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.089s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.095s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.096s] copying nav2_simple_commander/__init__.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.096s] copying nav2_simple_commander/demo_recoveries.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.097s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.097s] copying nav2_simple_commander/demo_picking.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.098s] copying nav2_simple_commander/demo_security.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.098s] copying nav2_simple_commander/demo_inspection.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.099s] copying nav2_simple_commander/robot_navigator.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.099s] copying nav2_simple_commander/example_follow_path.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.101s] running install
+[2.102s] /home/ros2/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.102s]   warnings.warn(
+[2.124s] running install_lib
+[2.161s] creating /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.161s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.161s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.161s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.161s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.162s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.162s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.163s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.164s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.164s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.164s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander
+[2.165s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-38.pyc
+[2.167s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-38.pyc
+[2.169s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-38.pyc
+[2.170s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-38.pyc
+[2.171s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-38.pyc
+[2.173s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-38.pyc
+[2.175s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-38.pyc
+[2.177s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-38.pyc
+[2.177s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-38.pyc
+[2.183s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-38.pyc
+[2.184s] running install_data
+[2.208s] creating /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/ament_index
+[2.208s] creating /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[2.208s] creating /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[2.208s] copying resource/nav2_simple_commander -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[2.208s] copying package.xml -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.208s] copying launch/waypoint_follower_example_launch.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.209s] copying launch/picking_demo_launch.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.210s] copying launch/warehouse.world -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.211s] copying launch/recoveries_example_launch.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.212s] copying launch/nav_to_pose_example_launch.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.212s] copying launch/security_demo_launch.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.213s] copying launch/nav_through_poses_example_launch.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.214s] copying launch/inspection_demo_launch.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.214s] copying launch/follow_path_example_launch.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[2.215s] running install_egg_info
+[2.257s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2_simple_commander-1.0.0-py3.8.egg-info
+[2.259s] running install_scripts
+[2.414s] Installing demo_inspection script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.414s] Installing demo_picking script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.414s] Installing demo_recoveries script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.414s] Installing demo_security script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.414s] Installing example_follow_path script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.415s] Installing example_nav_through_poses script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.415s] Installing example_nav_to_pose script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.415s] Installing example_waypoint_follower script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.416s] writing list of installed files to '/home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/install.log'
+[2.479s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/prefix_override:/home/ros2/ros2_learn/fishbot_ws/install/nav2_simple_commander/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/build install --record /home/ros2/ros2_learn/fishbot_ws/build/nav2_simple_commander/install.log --install-scripts $base/lib/nav2_simple_commander --single-version-externally-managed

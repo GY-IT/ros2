@@ -1,0 +1,28 @@
+[4.146s] Invoking command in '/home/ros2/ros2_learn/turtle_ws/src/village_wang': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces LD_LIBRARY_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/turtle_ws/src/build/village_wang/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_wang build --build-base /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build install --record /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/install.log --single-version-externally-managed
+[4.533s] running egg_info
+[4.535s] writing ../build/village_wang/village_wang.egg-info/PKG-INFO
+[4.535s] writing dependency_links to ../build/village_wang/village_wang.egg-info/dependency_links.txt
+[4.536s] writing entry points to ../build/village_wang/village_wang.egg-info/entry_points.txt
+[4.536s] writing requirements to ../build/village_wang/village_wang.egg-info/requires.txt
+[4.537s] writing top-level names to ../build/village_wang/village_wang.egg-info/top_level.txt
+[4.620s] reading manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+[4.624s] writing manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+[4.625s] running build
+[4.625s] running build_py
+[4.626s] copying village_wang/wang5.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang
+[4.627s] copying village_wang/wang2.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang
+[4.631s] running install
+[4.632s] running install_lib
+[4.632s] copying /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang/wang5.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang
+[4.632s] copying /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang/wang2.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang
+[4.632s] byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang/wang5.py to wang5.cpython-38.pyc
+[4.634s] byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang/wang2.py to wang2.cpython-38.pyc
+[4.637s] running install_data
+[4.638s] copying package.xml -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/share/village_wang
+[4.639s] running install_egg_info
+[4.641s] removing '/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang-0.0.0-py3.8.egg-info' (and everything under it)
+[4.642s] Copying ../build/village_wang/village_wang.egg-info to /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang-0.0.0-py3.8.egg-info
+[4.645s] running install_scripts
+[4.708s] Installing wang2_node = village_wang.wang2:mainwang5_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/village_wang
+[4.710s] writing list of installed files to '/home/ros2/ros2_learn/turtle_ws/src/build/village_wang/install.log'
+[4.810s] Invoked command in '/home/ros2/ros2_learn/turtle_ws/src/village_wang' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces LD_LIBRARY_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/turtle_ws/src/build/village_wang/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_wang build --build-base /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build install --record /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/install.log --single-version-externally-managed

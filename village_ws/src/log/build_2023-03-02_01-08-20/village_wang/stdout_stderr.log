@@ -1,0 +1,27 @@
+running egg_info
+writing ../build/village_wang/village_wang.egg-info/PKG-INFO
+writing dependency_links to ../build/village_wang/village_wang.egg-info/dependency_links.txt
+writing entry points to ../build/village_wang/village_wang.egg-info/entry_points.txt
+writing requirements to ../build/village_wang/village_wang.egg-info/requires.txt
+writing top-level names to ../build/village_wang/village_wang.egg-info/top_level.txt
+reading manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+writing manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+running build
+running build_py
+copying village_wang/wang2.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang
+running install
+running install_lib
+copying /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang/wang2.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang
+byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang/wang2.py to wang2.cpython-38.pyc
+  File "/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang/wang2.py", line 24
+    def novels_callback(self， infor):
+                            ^
+SyntaxError: invalid character in identifier
+
+running install_data
+running install_egg_info
+removing '/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/village_wang/village_wang.egg-info to /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang-0.0.0-py3.8.egg-info
+running install_scripts
+Installing wang2_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/village_wang
+writing list of installed files to '/home/ros2/ros2_learn/turtle_ws/src/build/village_wang/install.log'

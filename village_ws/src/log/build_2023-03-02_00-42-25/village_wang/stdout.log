@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/village_wang/village_wang.egg-info
+writing ../build/village_wang/village_wang.egg-info/PKG-INFO
+writing dependency_links to ../build/village_wang/village_wang.egg-info/dependency_links.txt
+writing entry points to ../build/village_wang/village_wang.egg-info/entry_points.txt
+writing requirements to ../build/village_wang/village_wang.egg-info/requires.txt
+writing top-level names to ../build/village_wang/village_wang.egg-info/top_level.txt
+writing manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+reading manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+writing manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build
+creating /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib
+creating /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang
+copying village_wang/__init__.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang
+copying village_wang/wang2.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang
+running install
+running install_lib
+creating /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang
+copying /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang/__init__.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang
+copying /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang/wang2.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang
+byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang/wang2.py to wang2.cpython-38.pyc
+running install_data
+creating /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/share/ament_index
+creating /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/share/ament_index/resource_index
+creating /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/share/ament_index/resource_index/packages
+copying resource/village_wang -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/share/village_wang
+running install_egg_info
+Copying ../build/village_wang/village_wang.egg-info to /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang-0.0.0-py3.8.egg-info
+running install_scripts
+Installing wang2_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/village_wang
+writing list of installed files to '/home/ros2/ros2_learn/turtle_ws/src/build/village_wang/install.log'

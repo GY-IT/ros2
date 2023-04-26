@@ -1,0 +1,50 @@
+[0.092s] Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/cartographer -- -j4 -l4
+[0.415s] [  0%] [34m[1mBuilding documentation.[0m
+[0.433s] [  1%] Built target gtest
+[0.590s] [  1%] Built target cartographer_detect_changes
+[0.639s] [  2%] Built target gmock
+[0.765s] [  2%] Built target gmock_main
+[1.291s] [  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.cc.o[0m
+[1.329s] [  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc.o[0m
+[1.338s] [  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/ray_to_pixel_mask.cc.o[0m
+[1.807s] [01mRunning Sphinx v1.8.5[39;49;00m
+[2.682s] [01mloading pickled environment... [39;49;00mdone
+[2.700s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[2.701s] [01mbuilding [html][39;49;00m: targets for 0 source files that are out of date
+[2.711s] [01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[2.711s] [01mlooking for now-outdated files... [39;49;00mnone found
+[2.711s] [01mno targets are out of date.[39;49;00m
+[2.711s] [01mbuild succeeded.[39;49;00m
+[2.711s] 
+[2.711s] The HTML pages are in html.
+[3.095s] [  3%] Built target build_doc
+[3.141s] [  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d.cc.o[0m
+[8.315s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc.o[0m
+[9.506s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/tsdf_match_cost_function_2d.cc.o[0m
+[10.673s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsd_value_converter.cc.o[0m
+[16.700s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_slam_result_3d.cc.o[0m
+[18.713s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_trajectory_builder_3d.cc.o[0m
+[20.749s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d.cc.o[0m
+[30.043s] [  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/pose_graph_3d.cc.o[0m
+[47.278s] [  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc.o[0m
+[49.310s] [  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/fast_correlative_scan_matcher_3d.cc.o[0m
+[51.324s] [  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_trajectory_builder_options_3d.cc.o[0m
+[52.365s] [  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsdf_2d.cc.o[0m
+[68.363s] [  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/precomputation_grid_3d.cc.o[0m
+[74.761s] [  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/real_time_correlative_scan_matcher_3d.cc.o[0m
+[81.207s] [  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/rotational_scan_matcher.cc.o[0m
+[87.481s] [  7%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/collated_trajectory_builder.cc.o[0m
+[89.501s] [  7%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/connected_components.cc.o[0m
+[91.546s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/low_resolution_matcher.cc.o[0m
+[99.559s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder_2d.cc.o[0m
+[107.759s] [  9%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder_3d.cc.o[0m
+[117.793s] [  9%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/eigen_quaterniond_from_two_vectors.cc.o[0m
+[118.219s] [  9%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder.cc.o[0m
+[119.258s] [  9%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/global_trajectory_builder.cc.o[0m
+[120.304s] [  9%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/intensity_cost_function_3d.cc.o[0m
+[137.670s] [  9%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/ceres_pose.cc.o[0m
+[138.720s] [ 10%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/motion_filter.cc.o[0m
+[139.099s] [ 10%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/imu_based_pose_extrapolator.cc.o[0m
+[141.180s] [ 10%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d.cc.o[0m
+[142.377s] [ 10%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/optimization_problem_2d.cc.o[0m
+[145.916s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/optimization_problem_3d.cc.o[0m

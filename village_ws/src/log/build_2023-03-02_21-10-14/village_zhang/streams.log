@@ -1,0 +1,37 @@
+[4.103s] Invoking command in '/home/ros2/ros2_learn/turtle_ws/src/village_zhang': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces LD_LIBRARY_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_zhang build --build-base /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build install --record /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/install.log --single-version-externally-managed
+[4.546s] running egg_info
+[4.550s] creating ../build/village_zhang/village_zhang.egg-info
+[4.550s] writing ../build/village_zhang/village_zhang.egg-info/PKG-INFO
+[4.550s] writing dependency_links to ../build/village_zhang/village_zhang.egg-info/dependency_links.txt
+[4.550s] writing entry points to ../build/village_zhang/village_zhang.egg-info/entry_points.txt
+[4.550s] writing requirements to ../build/village_zhang/village_zhang.egg-info/requires.txt
+[4.551s] writing top-level names to ../build/village_zhang/village_zhang.egg-info/top_level.txt
+[4.556s] writing manifest file '../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+[4.673s] reading manifest file '../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+[4.674s] writing manifest file '../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+[4.674s] running build
+[4.674s] running build_py
+[4.674s] creating /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build
+[4.675s] creating /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build/lib
+[4.675s] creating /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build/lib/village_zhang
+[4.675s] copying village_zhang/zhang3.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build/lib/village_zhang
+[4.675s] copying village_zhang/__init__.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build/lib/village_zhang
+[4.679s] running install
+[4.680s] running install_lib
+[4.683s] creating /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/python3.8/site-packages/village_zhang
+[4.684s] copying /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build/lib/village_zhang/zhang3.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/python3.8/site-packages/village_zhang
+[4.684s] copying /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build/lib/village_zhang/__init__.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/python3.8/site-packages/village_zhang
+[4.684s] byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/python3.8/site-packages/village_zhang/zhang3.py to zhang3.cpython-38.pyc
+[4.690s] byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/python3.8/site-packages/village_zhang/__init__.py to __init__.cpython-38.pyc
+[4.691s] running install_data
+[4.698s] creating /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/share/ament_index
+[4.698s] creating /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/share/ament_index/resource_index
+[4.700s] creating /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/share/ament_index/resource_index/packages
+[4.700s] copying resource/village_zhang -> /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/share/ament_index/resource_index/packages
+[4.700s] copying package.xml -> /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/share/village_zhang
+[4.701s] running install_egg_info
+[4.701s] Copying ../build/village_zhang/village_zhang.egg-info to /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/python3.8/site-packages/village_zhang-0.0.0-py3.8.egg-info
+[4.701s] running install_scripts
+[4.757s] Installing zhang3_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/village_zhang
+[4.757s] writing list of installed files to '/home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/install.log'
+[4.824s] Invoked command in '/home/ros2/ros2_learn/turtle_ws/src/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces LD_LIBRARY_PATH=/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_zhang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_zhang build --build-base /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/build install --record /home/ros2/ros2_learn/turtle_ws/src/build/village_zhang/install.log --single-version-externally-managed

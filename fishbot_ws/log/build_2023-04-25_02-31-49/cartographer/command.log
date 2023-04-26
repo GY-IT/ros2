@@ -1,0 +1,4 @@
+Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/install/cartographer
+Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/install/cartographer
+Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/build/cartographer -- -j4 -l4
+Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/cartographer' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/build/cartographer -- -j4 -l4

@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.001686] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.001954] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.002117] (village_li) JobQueued: {'identifier': 'village_li', 'dependencies': OrderedDict([('village_interfaces', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces')])}
+[0.002290] (village_li) JobStarted: {'identifier': 'village_li'}
+[0.094591] (-) TimerEvent: {}
+[0.196198] (-) TimerEvent: {}
+[0.297911] (-) TimerEvent: {}
+[0.398712] (-) TimerEvent: {}
+[0.499824] (-) TimerEvent: {}
+[0.601439] (-) TimerEvent: {}
+[0.702390] (-) TimerEvent: {}
+[0.803546] (-) TimerEvent: {}
+[0.905432] (-) TimerEvent: {}
+[1.009149] (-) TimerEvent: {}
+[1.110508] (-) TimerEvent: {}
+[1.211452] (-) TimerEvent: {}
+[1.312633] (-) TimerEvent: {}
+[1.414035] (-) TimerEvent: {}
+[1.515603] (-) TimerEvent: {}
+[1.617184] (-) TimerEvent: {}
+[1.718336] (-) TimerEvent: {}
+[1.819221] (-) TimerEvent: {}
+[1.920477] (-) TimerEvent: {}
+[2.021399] (-) TimerEvent: {}
+[2.122625] (-) TimerEvent: {}
+[2.223687] (-) TimerEvent: {}
+[2.324715] (-) TimerEvent: {}
+[2.353862] (village_li) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/village_li', 'build', '--build-base', '/home/ros2/ros2_learn/turtle_ws/src/build/village_li/build', 'install', '--record', '/home/ros2/ros2_learn/turtle_ws/src/build/village_li/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2/ros2_learn/turtle_ws/src/village_li', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'ros2', 'LC_TIME': 'zh_CN.UTF-8', 'SSH_AGENT_PID': '1680', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'QT4_IM_MODULE': 'fcitx', 'HOME': '/home/ros2', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.59.1', 'DESKTOP_SESSION': 'ubuntu', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1506', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=69c9fd9312103a923068a80764005c46', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_learn/turtle_ws/src/install', 'ROS_DISTRO': 'galactic', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'ros2', 'JOURNAL_STREAM': '8:48562', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1729,unix/ubuntu:/tmp/.ICE-unix/1729', 'INVOCATION_ID': '004f1e8c6e8e48aa96c8f156a080ca6b', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a33dadf1_fe6a_4af4_91e2_74c7bac4a33f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-457015b09d.sock', 'GNOME_TERMINAL_SERVICE': ':1.135', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:/opt/ros/galactic', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/ros2/ros2_learn/turtle_ws/src/build/village_li', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=69c9fd9312103a923068a80764005c46', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_learn/turtle_ws/src/build/village_li/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'BREAKPAD_DUMP_LOCATION': '/home/ros2/.config/Code/exthost Crash Reports', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces'}, 'shell': False}
+[2.427198] (-) TimerEvent: {}
+[2.528353] (-) TimerEvent: {}
+[2.629828] (-) TimerEvent: {}
+[2.732029] (-) TimerEvent: {}
+[2.833275] (-) TimerEvent: {}
+[2.934543] (-) TimerEvent: {}
+[3.000780] (village_li) StdoutLine: {'line': b'running egg_info\n'}
+[3.003057] (village_li) StdoutLine: {'line': b'writing ../build/village_li/village_li.egg-info/PKG-INFO\n'}
+[3.004017] (village_li) StdoutLine: {'line': b'writing dependency_links to ../build/village_li/village_li.egg-info/dependency_links.txt\n'}
+[3.005230] (village_li) StdoutLine: {'line': b'writing entry points to ../build/village_li/village_li.egg-info/entry_points.txt\n'}
+[3.006258] (village_li) StdoutLine: {'line': b'writing requirements to ../build/village_li/village_li.egg-info/requires.txt\n'}
+[3.006622] (village_li) StdoutLine: {'line': b'writing top-level names to ../build/village_li/village_li.egg-info/top_level.txt\n'}
+[3.035246] (-) TimerEvent: {}
+[3.102280] (village_li) StdoutLine: {'line': b"reading manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[3.104409] (village_li) StdoutLine: {'line': b"writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[3.105302] (village_li) StdoutLine: {'line': b'running build\n'}
+[3.105976] (village_li) StdoutLine: {'line': b'running build_py\n'}
+[3.106424] (village_li) StdoutLine: {'line': b'copying village_li/li3.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_li/build/lib/village_li\n'}
+[3.106700] (village_li) StdoutLine: {'line': b'running install\n'}
+[3.107821] (village_li) StdoutLine: {'line': b'running install_lib\n'}
+[3.109630] (village_li) StdoutLine: {'line': b'copying /home/ros2/ros2_learn/turtle_ws/src/build/village_li/build/lib/village_li/li3.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages/village_li\n'}
+[3.110331] (village_li) StdoutLine: {'line': b'byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages/village_li/li3.py to li3.cpython-38.pyc\n'}
+[3.114032] (village_li) StdoutLine: {'line': b'running install_data\n'}
+[3.115812] (village_li) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.118080] (village_li) StdoutLine: {'line': b"removing '/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.119227] (village_li) StdoutLine: {'line': b'Copying ../build/village_li/village_li.egg-info to /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info\n'}
+[3.119677] (village_li) StdoutLine: {'line': b'running install_scripts\n'}
+[3.135789] (-) TimerEvent: {}
+[3.162777] (village_li) StdoutLine: {'line': b'Installing li3_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/village_li\n'}
+[3.163557] (village_li) StdoutLine: {'line': b'Installing li4_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/village_li\n'}
+[3.164143] (village_li) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/ros2_learn/turtle_ws/src/build/village_li/install.log'\n"}
+[3.220436] (village_li) CommandEnded: {'returncode': 0}
+[3.237202] (-) TimerEvent: {}
+[3.268691] (village_li) JobEnded: {'identifier': 'village_li', 'rc': 0}
+[3.272095] (-) EventReactorShutdown: {}

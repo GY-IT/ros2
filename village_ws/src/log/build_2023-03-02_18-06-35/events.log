@@ -1,0 +1,461 @@
+[0.000000] (-) TimerEvent: {}
+[0.000731] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000864] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.000960] (village_interfaces) JobQueued: {'identifier': 'village_interfaces', 'dependencies': OrderedDict()}
+[0.005160] (village_interfaces) JobStarted: {'identifier': 'village_interfaces'}
+[0.062488] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'cmake'}
+[0.065001] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'build'}
+[0.070448] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1680'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/ros2_learn/turtle_ws/src/village_interfaces'), ('TERM_PROGRAM_VERSION', '1.59.1'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1506'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=69c9fd9312103a923068a80764005c46'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_learn/turtle_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:48562'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1729,unix/ubuntu:/tmp/.ICE-unix/1729'), ('INVOCATION_ID', '004f1e8c6e8e48aa96c8f156a080ca6b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a33dadf1_fe6a_4af4_91e2_74c7bac4a33f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-457015b09d.sock'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=69c9fd9312103a923068a80764005c46'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/ros2/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/opt/ros/galactic')]), 'shell': False}
+[0.096188] (-) TimerEvent: {}
+[0.189140] (village_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.198600] (-) TimerEvent: {}
+[0.292489] (village_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.292963] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299300] (-) TimerEvent: {}
+[0.400079] (-) TimerEvent: {}
+[0.501166] (-) TimerEvent: {}
+[0.577390] (village_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.601489] (-) TimerEvent: {}
+[0.690763] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.702145] (-) TimerEvent: {}
+[0.704026] (village_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.802714] (-) TimerEvent: {}
+[0.903590] (-) TimerEvent: {}
+[1.004649] (-) TimerEvent: {}
+[1.106378] (-) TimerEvent: {}
+[1.151355] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.206780] (-) TimerEvent: {}
+[1.308290] (-) TimerEvent: {}
+[1.409201] (-) TimerEvent: {}
+[1.510623] (-) TimerEvent: {}
+[1.612373] (-) TimerEvent: {}
+[1.713306] (-) TimerEvent: {}
+[1.770923] (village_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.813546] (-) TimerEvent: {}
+[1.915085] (-) TimerEvent: {}
+[1.918398] (village_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.015473] (-) TimerEvent: {}
+[2.117194] (-) TimerEvent: {}
+[2.218459] (-) TimerEvent: {}
+[2.319857] (-) TimerEvent: {}
+[2.420573] (-) TimerEvent: {}
+[2.521663] (-) TimerEvent: {}
+[2.623423] (-) TimerEvent: {}
+[2.683675] (village_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[2.723877] (-) TimerEvent: {}
+[2.825032] (-) TimerEvent: {}
+[2.926082] (-) TimerEvent: {}
+[3.027607] (-) TimerEvent: {}
+[3.128317] (-) TimerEvent: {}
+[3.229828] (-) TimerEvent: {}
+[3.331645] (-) TimerEvent: {}
+[3.434814] (-) TimerEvent: {}
+[3.536224] (-) TimerEvent: {}
+[3.637260] (-) TimerEvent: {}
+[3.655791] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.738477] (-) TimerEvent: {}
+[3.839317] (-) TimerEvent: {}
+[3.940265] (-) TimerEvent: {}
+[4.040834] (-) TimerEvent: {}
+[4.135356] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.141296] (-) TimerEvent: {}
+[4.220705] (village_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.221785] (village_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[4.242233] (-) TimerEvent: {}
+[4.293023] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.293523] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.293824] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.343250] (-) TimerEvent: {}
+[4.444317] (-) TimerEvent: {}
+[4.528232] (village_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[4.544818] (-) TimerEvent: {}
+[4.564825] (village_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.569407] (village_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.571578] (village_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.584625] (village_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.645113] (-) TimerEvent: {}
+[4.746220] (-) TimerEvent: {}
+[4.830518] (village_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.846638] (-) TimerEvent: {}
+[4.851294] (village_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces\n'}
+[4.947200] (-) TimerEvent: {}
+[4.953014] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__cpp\x1b[0m\n'}
+[4.985952] (village_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.003225] (village_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.048147] (-) TimerEvent: {}
+[5.149344] (-) TimerEvent: {}
+[5.250653] (-) TimerEvent: {}
+[5.351525] (-) TimerEvent: {}
+[5.452804] (-) TimerEvent: {}
+[5.554365] (-) TimerEvent: {}
+[5.655933] (-) TimerEvent: {}
+[5.756907] (-) TimerEvent: {}
+[5.858157] (-) TimerEvent: {}
+[5.959300] (-) TimerEvent: {}
+[6.059977] (-) TimerEvent: {}
+[6.161676] (-) TimerEvent: {}
+[6.263463] (-) TimerEvent: {}
+[6.330784] (village_interfaces) StdoutLine: {'line': b'[  5%] Built target village_interfaces__cpp\n'}
+[6.363753] (-) TimerEvent: {}
+[6.422945] (village_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.432184] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_generator_c\x1b[0m\n'}
+[6.443756] (village_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.464016] (-) TimerEvent: {}
+[6.466006] (village_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.564251] (-) TimerEvent: {}
+[6.571023] (village_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o\x1b[0m\n'}
+[6.664892] (-) TimerEvent: {}
+[6.766109] (-) TimerEvent: {}
+[6.868468] (-) TimerEvent: {}
+[6.904502] (village_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o\x1b[0m\n'}
+[6.969186] (-) TimerEvent: {}
+[7.074010] (-) TimerEvent: {}
+[7.174784] (-) TimerEvent: {}
+[7.193890] (village_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.276706] (-) TimerEvent: {}
+[7.379090] (-) TimerEvent: {}
+[7.481703] (-) TimerEvent: {}
+[7.516555] (village_interfaces) StdoutLine: {'line': b'[ 20%] Built target village_interfaces__rosidl_generator_c\n'}
+[7.587354] (-) TimerEvent: {}
+[7.645974] (village_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.690621] (-) TimerEvent: {}
+[7.798469] (-) TimerEvent: {}
+[7.900086] (-) TimerEvent: {}
+[8.004482] (-) TimerEvent: {}
+[8.105500] (-) TimerEvent: {}
+[8.179833] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.206212] (-) TimerEvent: {}
+[8.306939] (-) TimerEvent: {}
+[8.358160] (village_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o\x1b[0m\n'}
+[8.407428] (-) TimerEvent: {}
+[8.508185] (-) TimerEvent: {}
+[8.609223] (-) TimerEvent: {}
+[8.633489] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.709496] (-) TimerEvent: {}
+[8.765747] (village_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o\x1b[0m\n'}
+[8.810237] (-) TimerEvent: {}
+[8.910919] (-) TimerEvent: {}
+[8.990828] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.011905] (-) TimerEvent: {}
+[9.114098] (-) TimerEvent: {}
+[9.214685] (-) TimerEvent: {}
+[9.253245] (village_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o\x1b[0m\n'}
+[9.326355] (-) TimerEvent: {}
+[9.434402] (-) TimerEvent: {}
+[9.535347] (-) TimerEvent: {}
+[9.636728] (-) TimerEvent: {}
+[9.745996] (-) TimerEvent: {}
+[9.849813] (-) TimerEvent: {}
+[9.922744] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.950297] (-) TimerEvent: {}
+[10.054249] (village_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o\x1b[0m\n'}
+[10.054869] (-) TimerEvent: {}
+[10.156048] (-) TimerEvent: {}
+[10.257949] (-) TimerEvent: {}
+[10.340510] (village_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o\x1b[0m\n'}
+[10.362013] (-) TimerEvent: {}
+[10.465308] (-) TimerEvent: {}
+[10.575116] (-) TimerEvent: {}
+[10.598828] (village_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o\x1b[0m\n'}
+[10.644634] (village_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.677746] (-) TimerEvent: {}
+[10.778921] (-) TimerEvent: {}
+[10.843601] (village_interfaces) StdoutLine: {'line': b'[ 41%] Built target village_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.886210] (-) TimerEvent: {}
+[10.898262] (village_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o\x1b[0m\n'}
+[10.955045] (village_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.986425] (-) TimerEvent: {}
+[11.087552] (-) TimerEvent: {}
+[11.188963] (-) TimerEvent: {}
+[11.290498] (-) TimerEvent: {}
+[11.391367] (-) TimerEvent: {}
+[11.492357] (-) TimerEvent: {}
+[11.568432] (village_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o\x1b[0m\n'}
+[11.594037] (-) TimerEvent: {}
+[11.698486] (-) TimerEvent: {}
+[11.801956] (-) TimerEvent: {}
+[11.904337] (-) TimerEvent: {}
+[12.005622] (-) TimerEvent: {}
+[12.107188] (-) TimerEvent: {}
+[12.210550] (-) TimerEvent: {}
+[12.313977] (-) TimerEvent: {}
+[12.414846] (-) TimerEvent: {}
+[12.498554] (village_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.517510] (-) TimerEvent: {}
+[12.615689] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[12.618262] (-) TimerEvent: {}
+[12.719606] (-) TimerEvent: {}
+[12.732496] (village_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o\x1b[0m\n'}
+[12.819972] (-) TimerEvent: {}
+[12.820703] (village_interfaces) StdoutLine: {'line': b'[ 53%] Built target village_interfaces__rosidl_typesupport_cpp\n'}
+[12.900649] (village_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o\x1b[0m\n'}
+[12.920796] (-) TimerEvent: {}
+[13.005748] (village_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.021288] (-) TimerEvent: {}
+[13.123803] (-) TimerEvent: {}
+[13.136221] (village_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.225610] (-) TimerEvent: {}
+[13.328573] (-) TimerEvent: {}
+[13.330251] (village_interfaces) StdoutLine: {'line': b'[ 61%] Built target village_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[13.384217] (village_interfaces) StdoutLine: {'line': b'[ 61%] Built target village_interfaces__rosidl_typesupport_c\n'}
+[13.428942] (-) TimerEvent: {}
+[13.530116] (-) TimerEvent: {}
+[13.632308] (-) TimerEvent: {}
+[13.727363] (village_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.732896] (-) TimerEvent: {}
+[13.833504] (-) TimerEvent: {}
+[13.934389] (-) TimerEvent: {}
+[14.035209] (-) TimerEvent: {}
+[14.056522] (village_interfaces) StdoutLine: {'line': b'[ 64%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.102640] (village_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.136599] (-) TimerEvent: {}
+[14.238409] (-) TimerEvent: {}
+[14.339370] (-) TimerEvent: {}
+[14.440201] (-) TimerEvent: {}
+[14.541420] (-) TimerEvent: {}
+[14.642482] (-) TimerEvent: {}
+[14.743722] (-) TimerEvent: {}
+[14.844602] (-) TimerEvent: {}
+[14.945589] (-) TimerEvent: {}
+[15.046466] (-) TimerEvent: {}
+[15.147493] (-) TimerEvent: {}
+[15.167930] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.241573] (village_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o\x1b[0m\n'}
+[15.245106] (village_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o\x1b[0m\n'}
+[15.250158] (-) TimerEvent: {}
+[15.351939] (-) TimerEvent: {}
+[15.453115] (-) TimerEvent: {}
+[15.557803] (-) TimerEvent: {}
+[15.658535] (-) TimerEvent: {}
+[15.759859] (-) TimerEvent: {}
+[15.861586] (-) TimerEvent: {}
+[15.962905] (-) TimerEvent: {}
+[16.064307] (-) TimerEvent: {}
+[16.165090] (-) TimerEvent: {}
+[16.266117] (-) TimerEvent: {}
+[16.367632] (-) TimerEvent: {}
+[16.478195] (-) TimerEvent: {}
+[16.512376] (village_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.579256] (-) TimerEvent: {}
+[16.681552] (-) TimerEvent: {}
+[16.784035] (-) TimerEvent: {}
+[16.821921] (village_interfaces) StdoutLine: {'line': b'[ 74%] Built target village_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[16.884751] (-) TimerEvent: {}
+[16.901381] (village_interfaces) StdoutLine: {'line': b'[ 74%] Built target village_interfaces\n'}
+[16.953497] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__py\x1b[0m\n'}
+[16.985062] (-) TimerEvent: {}
+[17.002395] (village_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.085344] (-) TimerEvent: {}
+[17.185931] (-) TimerEvent: {}
+[17.286943] (-) TimerEvent: {}
+[17.387909] (-) TimerEvent: {}
+[17.489466] (-) TimerEvent: {}
+[17.590601] (-) TimerEvent: {}
+[17.692329] (-) TimerEvent: {}
+[17.793396] (-) TimerEvent: {}
+[17.894971] (-) TimerEvent: {}
+[17.996019] (-) TimerEvent: {}
+[18.097155] (-) TimerEvent: {}
+[18.198295] (-) TimerEvent: {}
+[18.299484] (-) TimerEvent: {}
+[18.400316] (-) TimerEvent: {}
+[18.501180] (-) TimerEvent: {}
+[18.602319] (-) TimerEvent: {}
+[18.703596] (-) TimerEvent: {}
+[18.804567] (-) TimerEvent: {}
+[18.905461] (-) TimerEvent: {}
+[19.006868] (-) TimerEvent: {}
+[19.108353] (-) TimerEvent: {}
+[19.168055] (village_interfaces) StdoutLine: {'line': b'[ 76%] Built target village_interfaces__py\n'}
+[19.208573] (-) TimerEvent: {}
+[19.209254] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__python\x1b[0m\n'}
+[19.272273] (village_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o\x1b[0m\n'}
+[19.293040] (village_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o\x1b[0m\n'}
+[19.309742] (-) TimerEvent: {}
+[19.410861] (-) TimerEvent: {}
+[19.513140] (-) TimerEvent: {}
+[19.613941] (-) TimerEvent: {}
+[19.642576] (village_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__python.so\x1b[0m\n'}
+[19.714068] (-) TimerEvent: {}
+[19.810523] (village_interfaces) StdoutLine: {'line': b'[ 84%] Built target village_interfaces__python\n'}
+[19.814835] (-) TimerEvent: {}
+[19.852886] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[19.873484] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[19.890327] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.915540] (-) TimerEvent: {}
+[19.961144] (village_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.967096] (village_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.989915] (village_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.018123] (-) TimerEvent: {}
+[20.121706] (-) TimerEvent: {}
+[20.225191] (-) TimerEvent: {}
+[20.330005] (-) TimerEvent: {}
+[20.405090] (village_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.427158] (village_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.435669] (-) TimerEvent: {}
+[20.536587] (-) TimerEvent: {}
+[20.588883] (village_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.637912] (-) TimerEvent: {}
+[20.682849] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_c__pyext\n'}
+[20.742133] (-) TimerEvent: {}
+[20.755740] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.793193] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[20.836561] (village_interfaces) CommandEnded: {'returncode': 0}
+[20.843420] (-) TimerEvent: {}
+[20.950871] (-) TimerEvent: {}
+[21.052356] (-) TimerEvent: {}
+[21.095466] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'install'}
+[21.141661] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces'], 'cwd': '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1680'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/ros2_learn/turtle_ws/src/village_interfaces'), ('TERM_PROGRAM_VERSION', '1.59.1'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1506'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=69c9fd9312103a923068a80764005c46'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_learn/turtle_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:48562'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1729,unix/ubuntu:/tmp/.ICE-unix/1729'), ('INVOCATION_ID', '004f1e8c6e8e48aa96c8f156a080ca6b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a33dadf1_fe6a_4af4_91e2_74c7bac4a33f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-457015b09d.sock'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=69c9fd9312103a923068a80764005c46'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/ros2/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang:/home/ros2/ros2_learn/turtle_ws/src/install/village_li:/opt/ros/galactic')]), 'shell': False}
+[21.153439] (-) TimerEvent: {}
+[21.171409] (village_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.172160] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces\n'}
+[21.172835] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces\n'}
+[21.173712] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg\n'}
+[21.174423] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[21.174757] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.h\n'}
+[21.175022] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.h\n'}
+[21.175346] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.c\n'}
+[21.175626] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.h\n'}
+[21.175906] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/novel.h\n'}
+[21.176160] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.176504] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv\n'}
+[21.178708] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail\n'}
+[21.179819] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.h\n'}
+[21.180334] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.c\n'}
+[21.180911] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.h\n'}
+[21.181165] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.h\n'}
+[21.181496] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/borrow_money.h\n'}
+[21.181925] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/library_path.sh\n'}
+[21.182387] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/library_path.dsv\n'}
+[21.182644] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so\n'}
+[21.182882] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""\n'}
+[21.183113] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces\n'}
+[21.183667] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg\n'}
+[21.186847] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.187187] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[21.187558] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h\n'}
+[21.191872] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv\n'}
+[21.192340] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail\n'}
+[21.192606] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h\n'}
+[21.193239] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[21.193897] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.194382] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces\n'}
+[21.194645] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg\n'}
+[21.194957] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[21.195636] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps\n'}
+[21.196023] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.196597] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.197099] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv\n'}
+[21.197591] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail\n'}
+[21.198209] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.198608] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/dds_fastrtps\n'}
+[21.199688] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.200020] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.200434] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces\n'}
+[21.200916] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg\n'}
+[21.201750] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.202533] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[21.203705] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h\n'}
+[21.203965] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.c\n'}
+[21.204193] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv\n'}
+[21.204763] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail\n'}
+[21.205032] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h\n'}
+[21.205303] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.c\n'}
+[21.205681] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[21.205992] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.206254] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so\n'}
+[21.207529] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[21.208498] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces\n'}
+[21.208636] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg\n'}
+[21.209330] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[21.209775] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__builder.hpp\n'}
+[21.210029] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__traits.hpp\n'}
+[21.210272] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.hpp\n'}
+[21.210514] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/novel.hpp\n'}
+[21.210751] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv\n'}
+[21.211159] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail\n'}
+[21.212853] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.hpp\n'}
+[21.213087] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__traits.hpp\n'}
+[21.213233] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__builder.hpp\n'}
+[21.213371] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/borrow_money.hpp\n'}
+[21.213506] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces\n'}
+[21.213641] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg\n'}
+[21.213774] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[21.214331] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.cpp\n'}
+[21.214500] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.214823] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv\n'}
+[21.215158] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail\n'}
+[21.215340] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.215747] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.cpp\n'}
+[21.215918] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[21.216162] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.216328] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so\n'}
+[21.216466] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[21.216601] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh\n'}
+[21.216753] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv\n'}
+[21.216934] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py\n'}
+[21.254067] (-) TimerEvent: {}
+[21.350184] (village_interfaces) StdoutLine: {'line': b"Compiling '/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py'...\n"}
+[21.354572] (-) TimerEvent: {}
+[21.367750] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg\n'}
+[21.370534] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/__init__.py\n'}
+[21.371258] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel.py\n'}
+[21.371664] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel_s.c\n'}
+[21.371944] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv\n'}
+[21.372485] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/__init__.py\n'}
+[21.372978] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money.py\n'}
+[21.373341] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money_s.c\n'}
+[21.373641] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.374214] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.374881] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.376495] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.377273] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.378694] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.379326] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__python.so\n'}
+[21.380601] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/libvillage_interfaces__python.so" to ""\n'}
+[21.381322] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/msg/Novel.idl\n'}
+[21.382080] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl\n'}
+[21.382412] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/msg/Novel.msg\n'}
+[21.383004] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv\n'}
+[21.383472] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg\n'}
+[21.383736] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg\n'}
+[21.384438] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces\n'}
+[21.384706] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces\n'}
+[21.385377] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh\n'}
+[21.385684] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv\n'}
+[21.386248] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/path.sh\n'}
+[21.388483] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/environment/path.dsv\n'}
+[21.389374] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/local_setup.bash\n'}
+[21.390146] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/local_setup.sh\n'}
+[21.390444] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/local_setup.zsh\n'}
+[21.390939] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/local_setup.dsv\n'}
+[21.391392] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/package.dsv\n'}
+[21.392031] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces\n'}
+[21.392326] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake\n'}
+[21.392778] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.393798] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.397167] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.398921] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[21.399511] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.400468] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake\n'}
+[21.401391] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.401806] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.402833] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[21.403392] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.403845] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[21.404398] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.404942] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.406110] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.406651] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.407845] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.408350] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.408640] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake\n'}
+[21.409182] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake\n'}
+[21.409473] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/share/village_interfaces/package.xml\n'}
+[21.423562] (village_interfaces) CommandEnded: {'returncode': 0}
+[21.454882] (-) TimerEvent: {}
+[21.555638] (-) TimerEvent: {}
+[21.656557] (-) TimerEvent: {}
+[21.757965] (-) TimerEvent: {}
+[21.841250] (village_interfaces) JobEnded: {'identifier': 'village_interfaces', 'rc': 0}
+[21.843416] (-) EventReactorShutdown: {}

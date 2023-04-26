@@ -1,0 +1,178 @@
+[0.032s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server
+[0.125s] -- The C compiler identification is GNU 9.4.0
+[0.203s] -- The CXX compiler identification is GNU 9.4.0
+[0.210s] -- Check for working C compiler: /usr/bin/cc
+[0.329s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.329s] -- Detecting C compiler ABI info
+[0.432s] -- Detecting C compiler ABI info - done
+[0.446s] -- Detecting C compile features
+[0.447s] -- Detecting C compile features - done
+[0.450s] -- Check for working CXX compiler: /usr/bin/c++
+[0.569s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.569s] -- Detecting CXX compiler ABI info
+[0.713s] -- Detecting CXX compiler ABI info - done
+[0.731s] -- Detecting CXX compile features
+[0.732s] -- Detecting CXX compile features - done
+[0.736s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.765s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.765s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.921s] -- Found nav2_common: 1.0.12 (/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/cmake)
+[0.926s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.030s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.152s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.235s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.521s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.526s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.566s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.567s] -- Looking for pthread.h
+[1.677s] -- Looking for pthread.h - found
+[1.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.826s] -- Looking for pthread_create in pthreads
+[1.933s] -- Looking for pthread_create in pthreads - not found
+[1.933s] -- Looking for pthread_create in pthread
+[2.053s] -- Looking for pthread_create in pthread - found
+[2.053s] -- Found Threads: TRUE  
+[2.286s] -- Found rclcpp_lifecycle: 9.2.2 (/opt/ros/galactic/share/rclcpp_lifecycle/cmake)
+[2.325s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[2.432s] -- Found nav2_msgs: 1.0.12 (/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.830s] -- Found yaml_cpp_vendor: 7.1.1 (/opt/ros/galactic/share/yaml_cpp_vendor/cmake)
+[2.836s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[2.853s] -- Found nav2_util: 1.0.12 (/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/share/nav2_util/cmake)
+[3.402s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[3.405s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.622s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[3.622s] -- Setting build type to Release as none was specified.
+[5.739s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.909s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.913s] -- Check if compiler accepts -pthread
+[6.031s] -- Check if compiler accepts -pthread - yes
+[6.039s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.047s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.059s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.061s] -- Configured cppcheck include dirs: /home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_map_server/include
+[6.061s] -- Configured cppcheck exclude dirs and/or files: 
+[6.065s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.066s] -- Configured cpplint exclude dirs and/or files: 
+[6.067s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.069s] -- Added test 'lint_cmake' to check CMake code style
+[6.070s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.072s] -- Added test 'uncrustify' to check C / C++ code style
+[6.072s] -- Configured uncrustify additional arguments: 
+[6.074s] -- Added test 'xmllint' to check XML markup files
+[6.084s] -- Configuring done
+[6.460s] -- Generating done
+[6.466s] -- Build files have been written to: /home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server
+[6.487s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server
+[6.488s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server -- -j4 -l4
+[6.547s] [35m[1mScanning dependencies of target map_io[0m
+[6.651s] [  2%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[7.129s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[14.367s] [  8%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[14.600s] [  8%] Built target map_io
+[14.613s] [35m[1mScanning dependencies of target gtest_main[0m
+[14.632s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[15.983s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[16.015s] [ 13%] Built target gtest_main
+[16.026s] [35m[1mScanning dependencies of target test_map_saver_publisher[0m
+[16.085s] [ 16%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[23.393s] [ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[23.574s] [ 22%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[23.876s] [ 22%] Built target test_map_saver_publisher
+[23.894s] [35m[1mScanning dependencies of target map_server_core[0m
+[23.968s] [ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[33.865s] [ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[41.372s] [ 30%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[57.252s] [ 33%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[57.642s] [ 33%] Built target map_server_core
+[57.656s] [35m[1mScanning dependencies of target gtest[0m
+[57.676s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[70.916s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[70.981s] [ 38%] Built target gtest
+[71.014s] [35m[1mScanning dependencies of target map_saver_server[0m
+[71.109s] [ 41%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[75.964s] [ 44%] [32m[1mLinking CXX executable map_saver_server[0m
+[76.388s] [ 44%] Built target map_saver_server
+[76.405s] [35m[1mScanning dependencies of target costmap_filter_info_server[0m
+[76.475s] [ 47%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[80.927s] [ 50%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[81.454s] [ 50%] Built target costmap_filter_info_server
+[81.475s] [35m[1mScanning dependencies of target test_costmap_filter_info_server[0m
+[81.589s] [ 52%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[97.175s] [ 55%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[97.584s] [ 55%] Built target test_costmap_filter_info_server
+[97.605s] [35m[1mScanning dependencies of target test_map_io[0m
+[97.678s] [ 58%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[106.093s] [ 61%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[106.345s] [ 63%] [32m[1mLinking CXX executable test_map_io[0m
+[106.670s] [ 63%] Built target test_map_io
+[106.685s] [35m[1mScanning dependencies of target test_map_saver_node[0m
+[106.760s] [ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[115.564s] [ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[115.782s] [ 72%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[116.178s] [ 72%] Built target test_map_saver_node
+[116.197s] [35m[1mScanning dependencies of target test_map_server_node[0m
+[116.296s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[125.642s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[125.812s] [ 80%] [32m[1mLinking CXX executable test_map_server_node[0m
+[126.125s] [ 80%] Built target test_map_server_node
+[126.144s] [35m[1mScanning dependencies of target test_map_saver_cli[0m
+[126.224s] [ 83%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[134.870s] [ 86%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[135.056s] [ 88%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[135.285s] [ 88%] Built target test_map_saver_cli
+[135.301s] [35m[1mScanning dependencies of target map_saver_cli[0m
+[135.369s] [ 91%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[140.130s] [ 94%] [32m[1mLinking CXX executable map_saver_cli[0m
+[140.606s] [ 94%] Built target map_saver_cli
+[140.626s] [35m[1mScanning dependencies of target map_server[0m
+[140.723s] [ 97%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[145.115s] [100%] [32m[1mLinking CXX executable map_server[0m
+[145.613s] [100%] Built target map_server
+[145.630s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server -- -j4 -l4
+[145.727s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server
+[145.748s] -- Install configuration: "Release"
+[145.748s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/libmap_server_core.so
+[145.751s] -- Set runtime path of "/home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[145.752s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/libmap_io.so
+[145.754s] -- Set runtime path of "/home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/libmap_io.so" to ""
+[145.755s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[145.756s] -- Set runtime path of "/home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[145.756s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[145.757s] -- Set runtime path of "/home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[145.757s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[145.758s] -- Set runtime path of "/home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[145.758s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[145.759s] -- Set runtime path of "/home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[145.759s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/include/
+[145.759s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/include//nav2_map_server
+[145.759s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[145.759s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[145.759s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[145.760s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[145.760s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[145.760s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/launch
+[145.760s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[145.767s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[145.768s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[145.768s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[145.769s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[145.769s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[145.770s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[145.770s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[145.771s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[145.771s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[145.771s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[145.771s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[145.771s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[145.772s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[145.772s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[145.772s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[145.772s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[145.772s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[145.773s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[145.773s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[145.773s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[145.777s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_learn/fishbot_ws/build/nav2_map_server

@@ -1,0 +1,41 @@
+[1.381s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner': PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/prefix_override:/home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build install --record /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed
+[1.563s] /home/ros2/.local/lib/python3.8/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.563s]   warnings.warn(
+[1.705s] running egg_info
+[1.706s] creating ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info
+[1.728s] writing ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+[1.728s] writing dependency_links to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+[1.729s] writing entry points to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+[1.730s] writing requirements to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+[1.730s] writing top-level names to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+[1.839s] writing manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.874s] reading manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.877s] writing manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.877s] running build
+[1.878s] running build_py
+[1.878s] creating /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build
+[1.878s] creating /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build/lib
+[1.879s] creating /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[1.879s] copying nav2_gazebo_spawner/__init__.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[1.880s] copying nav2_gazebo_spawner/nav2_gazebo_spawner.py -> /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[1.881s] running install
+[1.882s] /home/ros2/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.882s]   warnings.warn(
+[1.893s] running install_lib
+[1.919s] creating /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[1.920s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner/__init__.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[1.920s] copying /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner/nav2_gazebo_spawner.py -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[1.921s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner/__init__.py to __init__.cpython-38.pyc
+[1.922s] byte-compiling /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner/nav2_gazebo_spawner.py to nav2_gazebo_spawner.cpython-38.pyc
+[1.924s] running install_data
+[1.948s] creating /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/share/ament_index
+[1.949s] creating /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index
+[1.949s] creating /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[1.950s] copying resource/nav2_gazebo_spawner -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[1.950s] copying package.xml -> /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/share/nav2_gazebo_spawner
+[1.950s] running install_egg_info
+[1.970s] Copying ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info
+[1.971s] running install_scripts
+[2.065s] Installing nav2_gazebo_spawner script to /home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[2.066s] writing list of installed files to '/home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/install.log'
+[2.118s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/prefix_override:/home/ros2/ros2_learn/fishbot_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/build install --record /home/ros2/ros2_learn/fishbot_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed

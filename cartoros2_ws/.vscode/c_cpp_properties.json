@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_rviz/include/**",
+        "/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros/include/**",
+        "/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_ros/include/**",
+        "/home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_rviz/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

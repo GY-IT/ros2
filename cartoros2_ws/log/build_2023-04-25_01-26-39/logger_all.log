@@ -1,0 +1,388 @@
+[0.517s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.517s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa069f59970>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa069f59970>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa069e5f310>)
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.635s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2/ros2_learn/cartoros2_ws'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extension 'ignore_ament_install'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extension 'ros'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extensions ['cmake', 'python']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(abseil-cpp) by extension 'python'
+[0.762s] DEBUG:colcon.colcon_core.package_identification:Package 'abseil-cpp' with type 'cmake' and name 'absl'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ros'
+[0.778s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ros'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['cmake', 'python']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'cmake'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['python_setup_py']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python_setup_py'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.786s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.800s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) ignored
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'cmake'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.814s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.935s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 354 installed packages in /opt/ros/galactic
+[0.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'cmake_args' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'cmake_target' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'cmake_clean_cache' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'cmake_clean_first' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'cmake_force_configure' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'ament_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'catkin_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'absl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.135s] DEBUG:colcon.colcon_core.verb:Building package 'absl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_learn/cartoros2_ws/build/absl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_learn/cartoros2_ws/install/absl', 'merge_install': False, 'path': '/home/ros2/ros2_learn/cartoros2_ws/abseil-cpp', 'symlink_install': False, 'test_result_base': None}
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.142s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer', 'merge_install': False, 'path': '/home/ros2/ros2_learn/cartoros2_ws/src/cartographer', 'symlink_install': False, 'test_result_base': None}
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.148s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.155s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/ros2/ros2_learn/cartoros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.161s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros', 'merge_install': False, 'path': '/home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_ros', 'symlink_install': False, 'test_result_base': None}
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.163s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_rviz', 'merge_install': False, 'path': '/home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_rviz', 'symlink_install': False, 'test_result_base': None}
+[1.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.183s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ros2/ros2_learn/cartoros2_ws/src/cartographer' with build type 'cmake'
+[1.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_learn/cartoros2_ws/src/cartographer'
+[1.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[1.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_ros_msgs'
+[1.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_learn/cartoros2_ws/abseil-cpp'
+[1.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/ros2_learn/cartoros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[1.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_learn/cartoros2_ws/src/sllidar_ros2'
+[1.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/cartoros2_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/cartoros2_ws/install/cartographer
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs
+[1.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/absl': /usr/bin/cmake /home/ros2/ros2_learn/cartoros2_ws/abseil-cpp -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/cartoros2_ws/install/absl
+[1.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/cartoros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2
+[5.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/absl' returned '0': /usr/bin/cmake /home/ros2/ros2_learn/cartoros2_ws/abseil-cpp -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/cartoros2_ws/install/absl
+[5.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/absl': /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/absl -- -j4 -l4
+[9.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/cartoros2_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/cartoros2_ws/install/cartographer
+[9.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/cartographer -- -j4 -l4
+[9.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/cartoros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2
+[9.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2 -- -j4 -l4
+[12.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/cartoros2_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs
+[12.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs -- -j4 -l4
+[93.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2 -- -j4 -l4
+[94.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2
+[94.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[94.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/cartoros2_ws/build/sllidar_ros2
+[94.151s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2' for CMake module files
+[94.154s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2' for CMake config files
+[94.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[94.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[94.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[94.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[94.174s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/lib'
+[94.175s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/bin'
+[94.176s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[94.178s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[94.179s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/bin'
+[94.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[94.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[94.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[94.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[94.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[94.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[94.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[94.640s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2' for CMake module files
+[94.641s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2' for CMake config files
+[94.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[94.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[94.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[94.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[94.661s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/lib'
+[94.661s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/bin'
+[94.661s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[94.661s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[94.661s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/bin'
+[94.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[94.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[94.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[94.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[94.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[94.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_learn/cartoros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[127.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/absl' returned '0': /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/absl -- -j4 -l4
+[127.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/absl': /usr/bin/cmake --install /home/ros2/ros2_learn/cartoros2_ws/build/absl
+[127.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(absl)
+[127.840s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/absl' for CMake module files
+[127.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/absl' returned '0': /usr/bin/cmake --install /home/ros2/ros2_learn/cartoros2_ws/build/absl
+[127.842s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/absl' for CMake config files
+[127.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('absl', 'cmake_prefix_path')
+[127.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/absl/hook/cmake_prefix_path.ps1'
+[127.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/absl/hook/cmake_prefix_path.dsv'
+[127.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/absl/hook/cmake_prefix_path.sh'
+[127.850s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/absl/lib'
+[127.851s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/absl/bin'
+[127.851s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/absl/lib/pkgconfig/absl.pc'
+[127.852s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/absl/lib/python3.8/site-packages'
+[127.852s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/absl/bin'
+[127.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/absl/package.ps1'
+[127.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/absl/package.dsv'
+[127.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/absl/package.sh'
+[127.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/absl/package.bash'
+[127.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/absl/package.zsh'
+[127.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_learn/cartoros2_ws/install/absl/share/colcon-core/packages/absl)
+[174.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs -- -j4 -l4
+[174.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs
+[174.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[174.945s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs' for CMake module files
+[174.949s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs' for CMake config files
+[174.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[174.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[174.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs
+[174.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[174.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[174.956s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/lib'
+[174.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[174.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[174.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[174.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[174.966s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/bin'
+[174.967s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[174.967s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages'
+[174.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'pythonpath')
+[174.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.ps1'
+[174.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.dsv'
+[174.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.sh'
+[174.979s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/bin'
+[174.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[174.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[174.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[174.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[174.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[174.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[175.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[175.697s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs' for CMake module files
+[175.699s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs' for CMake config files
+[175.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[175.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[175.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[175.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[175.710s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/lib'
+[175.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[175.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[175.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[175.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[175.718s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/bin'
+[175.718s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[175.718s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages'
+[175.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'pythonpath')
+[175.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.ps1'
+[175.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.dsv'
+[175.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/pythonpath.sh'
+[175.727s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/bin'
+[175.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[175.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[175.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[175.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[175.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[175.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_learn/cartoros2_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[308.069s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[308.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[308.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/cartographer -- -j4 -l4
+[309.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer)
+[309.153s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer' for CMake module files
+[309.155s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer' for CMake config files
+[309.155s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/bin'
+[309.155s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/lib/pkgconfig/cartographer.pc'
+[309.156s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/lib/python3.8/site-packages'
+[309.156s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/bin'
+[309.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/share/cartographer/package.ps1'
+[309.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/share/cartographer/package.dsv'
+[309.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/share/cartographer/package.sh'
+[309.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/share/cartographer/package.bash'
+[309.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/share/cartographer/package.zsh'
+[309.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_learn/cartoros2_ws/install/cartographer/share/colcon-core/packages/cartographer)
+[309.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[309.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[309.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[309.180s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[309.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[309.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[309.223s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[309.269s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[309.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_learn/cartoros2_ws/install/local_setup.ps1'
+[309.275s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/ros2_learn/cartoros2_ws/install/_local_setup_util_ps1.py'
+[309.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_learn/cartoros2_ws/install/setup.ps1'
+[309.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_learn/cartoros2_ws/install/local_setup.sh'
+[309.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/ros2_learn/cartoros2_ws/install/_local_setup_util_sh.py'
+[309.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_learn/cartoros2_ws/install/setup.sh'
+[309.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_learn/cartoros2_ws/install/local_setup.bash'
+[309.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_learn/cartoros2_ws/install/setup.bash'
+[309.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_learn/cartoros2_ws/install/local_setup.zsh'
+[309.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_learn/cartoros2_ws/install/setup.zsh'

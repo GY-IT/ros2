@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.002261] (example_fish_protocol) JobQueued: {'identifier': 'example_fish_protocol', 'dependencies': OrderedDict()}
+[0.004596] (example_fish_protocol) JobStarted: {'identifier': 'example_fish_protocol'}
+[0.037243] (example_fish_protocol) JobProgress: {'identifier': 'example_fish_protocol', 'progress': 'cmake'}
+[0.038863] (example_fish_protocol) JobProgress: {'identifier': 'example_fish_protocol', 'progress': 'build'}
+[0.040569] (example_fish_protocol) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1720'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1538'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e521be1a888642ef747955a3643f9960'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:50719'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1763,unix/ubuntu:/tmp/.ICE-unix/1763'), ('INVOCATION_ID', '37941467c1304441a0860297c94d13dc'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6abe8966_8fde_4196_b521_63e65c30374e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1944'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e521be1a888642ef747955a3643f9960'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol:/opt/ros/galactic')]), 'shell': False}
+[0.100211] (-) TimerEvent: {}
+[0.133358] (example_fish_protocol) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target example_fish_protocol\x1b[0m\n'}
+[0.176844] (example_fish_protocol) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_fish_protocol.dir/src/example_fish_protocol.cpp.o\x1b[0m\n'}
+[0.200459] (-) TimerEvent: {}
+[0.301307] (-) TimerEvent: {}
+[0.402034] (-) TimerEvent: {}
+[0.503307] (-) TimerEvent: {}
+[0.604786] (-) TimerEvent: {}
+[0.706452] (-) TimerEvent: {}
+[0.807831] (-) TimerEvent: {}
+[0.909366] (-) TimerEvent: {}
+[1.010396] (-) TimerEvent: {}
+[1.111359] (-) TimerEvent: {}
+[1.212878] (-) TimerEvent: {}
+[1.313866] (-) TimerEvent: {}
+[1.414658] (-) TimerEvent: {}
+[1.515912] (-) TimerEvent: {}
+[1.617392] (-) TimerEvent: {}
+[1.718238] (-) TimerEvent: {}
+[1.819666] (-) TimerEvent: {}
+[1.920641] (-) TimerEvent: {}
+[2.021602] (-) TimerEvent: {}
+[2.122433] (-) TimerEvent: {}
+[2.223671] (-) TimerEvent: {}
+[2.324657] (-) TimerEvent: {}
+[2.426069] (-) TimerEvent: {}
+[2.526525] (-) TimerEvent: {}
+[2.627827] (-) TimerEvent: {}
+[2.729100] (-) TimerEvent: {}
+[2.830577] (-) TimerEvent: {}
+[2.931287] (-) TimerEvent: {}
+[3.031915] (-) TimerEvent: {}
+[3.133244] (-) TimerEvent: {}
+[3.234702] (-) TimerEvent: {}
+[3.335351] (-) TimerEvent: {}
+[3.436184] (-) TimerEvent: {}
+[3.537452] (-) TimerEvent: {}
+[3.638950] (-) TimerEvent: {}
+[3.739802] (-) TimerEvent: {}
+[3.841099] (-) TimerEvent: {}
+[3.942109] (-) TimerEvent: {}
+[4.042869] (-) TimerEvent: {}
+[4.144436] (-) TimerEvent: {}
+[4.245206] (-) TimerEvent: {}
+[4.346074] (-) TimerEvent: {}
+[4.447201] (-) TimerEvent: {}
+[4.548142] (-) TimerEvent: {}
+[4.649114] (-) TimerEvent: {}
+[4.749547] (-) TimerEvent: {}
+[4.850579] (-) TimerEvent: {}
+[4.951541] (-) TimerEvent: {}
+[5.052656] (-) TimerEvent: {}
+[5.154181] (-) TimerEvent: {}
+[5.255750] (-) TimerEvent: {}
+[5.356623] (-) TimerEvent: {}
+[5.457668] (-) TimerEvent: {}
+[5.558617] (-) TimerEvent: {}
+[5.659882] (-) TimerEvent: {}
+[5.760932] (-) TimerEvent: {}
+[5.861931] (-) TimerEvent: {}
+[5.963332] (-) TimerEvent: {}
+[6.064439] (-) TimerEvent: {}
+[6.165836] (-) TimerEvent: {}
+[6.266792] (-) TimerEvent: {}
+[6.367550] (-) TimerEvent: {}
+[6.468434] (-) TimerEvent: {}
+[6.569958] (-) TimerEvent: {}
+[6.671662] (-) TimerEvent: {}
+[6.773055] (-) TimerEvent: {}
+[6.874077] (-) TimerEvent: {}
+[6.975274] (-) TimerEvent: {}
+[7.076607] (-) TimerEvent: {}
+[7.178466] (-) TimerEvent: {}
+[7.279679] (-) TimerEvent: {}
+[7.381112] (-) TimerEvent: {}
+[7.482743] (-) TimerEvent: {}
+[7.584168] (-) TimerEvent: {}
+[7.685465] (-) TimerEvent: {}
+[7.786611] (-) TimerEvent: {}
+[7.887462] (-) TimerEvent: {}
+[7.988789] (-) TimerEvent: {}
+[8.090134] (-) TimerEvent: {}
+[8.191141] (-) TimerEvent: {}
+[8.292199] (-) TimerEvent: {}
+[8.393177] (-) TimerEvent: {}
+[8.494256] (-) TimerEvent: {}
+[8.595192] (-) TimerEvent: {}
+[8.696722] (-) TimerEvent: {}
+[8.798066] (-) TimerEvent: {}
+[8.899924] (-) TimerEvent: {}
+[9.000910] (-) TimerEvent: {}
+[9.101561] (-) TimerEvent: {}
+[9.202419] (-) TimerEvent: {}
+[9.303502] (-) TimerEvent: {}
+[9.404818] (-) TimerEvent: {}
+[9.505552] (-) TimerEvent: {}
+[9.606158] (-) TimerEvent: {}
+[9.707043] (-) TimerEvent: {}
+[9.807715] (-) TimerEvent: {}
+[9.908817] (-) TimerEvent: {}
+[10.009563] (-) TimerEvent: {}
+[10.110932] (-) TimerEvent: {}
+[10.212517] (-) TimerEvent: {}
+[10.314046] (-) TimerEvent: {}
+[10.415492] (-) TimerEvent: {}
+[10.516636] (-) TimerEvent: {}
+[10.617631] (-) TimerEvent: {}
+[10.719185] (-) TimerEvent: {}
+[10.820731] (-) TimerEvent: {}
+[10.921363] (-) TimerEvent: {}
+[11.023199] (-) TimerEvent: {}
+[11.124201] (-) TimerEvent: {}
+[11.225471] (-) TimerEvent: {}
+[11.327169] (-) TimerEvent: {}
+[11.427836] (-) TimerEvent: {}
+[11.528990] (-) TimerEvent: {}
+[11.630301] (-) TimerEvent: {}
+[11.731230] (-) TimerEvent: {}
+[11.831994] (-) TimerEvent: {}
+[11.933548] (-) TimerEvent: {}
+[12.034511] (-) TimerEvent: {}
+[12.136109] (-) TimerEvent: {}
+[12.237133] (-) TimerEvent: {}
+[12.338341] (-) TimerEvent: {}
+[12.439015] (-) TimerEvent: {}
+[12.539654] (-) TimerEvent: {}
+[12.640986] (-) TimerEvent: {}
+[12.742116] (-) TimerEvent: {}
+[12.842795] (-) TimerEvent: {}
+[12.943372] (-) TimerEvent: {}
+[13.044344] (-) TimerEvent: {}
+[13.144882] (-) TimerEvent: {}
+[13.245508] (-) TimerEvent: {}
+[13.346033] (-) TimerEvent: {}
+[13.446949] (-) TimerEvent: {}
+[13.547565] (-) TimerEvent: {}
+[13.648414] (-) TimerEvent: {}
+[13.749058] (-) TimerEvent: {}
+[13.850273] (-) TimerEvent: {}
+[13.951222] (-) TimerEvent: {}
+[14.051708] (-) TimerEvent: {}
+[14.152431] (-) TimerEvent: {}
+[14.253692] (-) TimerEvent: {}
+[14.354160] (-) TimerEvent: {}
+[14.455192] (-) TimerEvent: {}
+[14.556103] (-) TimerEvent: {}
+[14.657022] (-) TimerEvent: {}
+[14.757884] (-) TimerEvent: {}
+[14.858992] (-) TimerEvent: {}
+[14.960248] (-) TimerEvent: {}
+[15.061054] (-) TimerEvent: {}
+[15.162017] (-) TimerEvent: {}
+[15.262790] (-) TimerEvent: {}
+[15.364429] (-) TimerEvent: {}
+[15.473097] (-) TimerEvent: {}
+[15.573541] (-) TimerEvent: {}
+[15.673975] (-) TimerEvent: {}
+[15.775894] (-) TimerEvent: {}
+[15.876501] (-) TimerEvent: {}
+[15.977419] (-) TimerEvent: {}
+[16.078790] (-) TimerEvent: {}
+[16.179723] (-) TimerEvent: {}
+[16.281024] (-) TimerEvent: {}
+[16.382110] (-) TimerEvent: {}
+[16.482434] (-) TimerEvent: {}
+[16.583322] (-) TimerEvent: {}
+[16.584480] (example_fish_protocol) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_fish_protocol\x1b[0m\n'}
+[16.683708] (-) TimerEvent: {}
+[16.785384] (-) TimerEvent: {}
+[16.865255] (example_fish_protocol) StdoutLine: {'line': b'[100%] Built target example_fish_protocol\n'}
+[16.885822] (-) TimerEvent: {}
+[16.890767] (example_fish_protocol) CommandEnded: {'returncode': 0}
+[16.942761] (example_fish_protocol) JobProgress: {'identifier': 'example_fish_protocol', 'progress': 'install'}
+[16.960692] (example_fish_protocol) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol'], 'cwd': '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1720'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1538'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e521be1a888642ef747955a3643f9960'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:50719'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1763,unix/ubuntu:/tmp/.ICE-unix/1763'), ('INVOCATION_ID', '37941467c1304441a0860297c94d13dc'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6abe8966_8fde_4196_b521_63e65c30374e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1944'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/build/example_fish_protocol'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e521be1a888642ef747955a3643f9960'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol:/opt/ros/galactic')]), 'shell': False}
+[16.974602] (example_fish_protocol) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.975454] (example_fish_protocol) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/lib/example_fish_protocol/example_fish_protocol\n'}
+[16.976428] (example_fish_protocol) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/lib/example_fish_protocol/example_fish_protocol" to ""\n'}
+[16.977541] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/package_run_dependencies/example_fish_protocol\n'}
+[16.978000] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/parent_prefix_path/example_fish_protocol\n'}
+[16.978480] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/ament_prefix_path.sh\n'}
+[16.979198] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/ament_prefix_path.dsv\n'}
+[16.980025] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/path.sh\n'}
+[16.980251] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/environment/path.dsv\n'}
+[16.980523] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.bash\n'}
+[16.980825] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.sh\n'}
+[16.981038] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.zsh\n'}
+[16.981225] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/local_setup.dsv\n'}
+[16.981510] (example_fish_protocol) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/package.dsv\n'}
+[16.981708] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/ament_index/resource_index/packages/example_fish_protocol\n'}
+[16.981885] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/cmake/example_fish_protocolConfig.cmake\n'}
+[16.982081] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/cmake/example_fish_protocolConfig-version.cmake\n'}
+[16.982267] (example_fish_protocol) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_learn/fish_protocol/examples/example_ros2/example_fish_protocol/install/example_fish_protocol/share/example_fish_protocol/package.xml\n'}
+[16.986811] (example_fish_protocol) CommandEnded: {'returncode': 0}
+[16.987309] (-) TimerEvent: {}
+[17.068084] (example_fish_protocol) JobEnded: {'identifier': 'example_fish_protocol', 'rc': 0}
+[17.069300] (-) EventReactorShutdown: {}

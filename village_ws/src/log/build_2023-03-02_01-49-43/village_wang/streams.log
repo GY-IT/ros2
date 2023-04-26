@@ -1,0 +1,24 @@
+[1.390s] Invoking command in '/home/ros2/ros2_learn/turtle_ws/src/village_wang': PYTHONPATH=/home/ros2/ros2_learn/turtle_ws/src/build/village_wang/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_wang build --build-base /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build install --record /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/install.log --single-version-externally-managed
+[1.981s] running egg_info
+[1.983s] writing ../build/village_wang/village_wang.egg-info/PKG-INFO
+[1.984s] writing dependency_links to ../build/village_wang/village_wang.egg-info/dependency_links.txt
+[1.985s] writing entry points to ../build/village_wang/village_wang.egg-info/entry_points.txt
+[1.985s] writing requirements to ../build/village_wang/village_wang.egg-info/requires.txt
+[1.991s] writing top-level names to ../build/village_wang/village_wang.egg-info/top_level.txt
+[2.097s] reading manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+[2.101s] writing manifest file '../build/village_wang/village_wang.egg-info/SOURCES.txt'
+[2.101s] running build
+[2.102s] running build_py
+[2.103s] copying village_wang/wang2.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang
+[2.104s] running install
+[2.106s] running install_lib
+[2.109s] copying /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build/lib/village_wang/wang2.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang
+[2.112s] byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang/wang2.py to wang2.cpython-38.pyc
+[2.116s] running install_data
+[2.116s] running install_egg_info
+[2.122s] removing '/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang-0.0.0-py3.8.egg-info' (and everything under it)
+[2.124s] Copying ../build/village_wang/village_wang.egg-info to /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang-0.0.0-py3.8.egg-info
+[2.126s] running install_scripts
+[2.184s] Installing wang2_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/village_wang
+[2.185s] writing list of installed files to '/home/ros2/ros2_learn/turtle_ws/src/build/village_wang/install.log'
+[2.267s] Invoked command in '/home/ros2/ros2_learn/turtle_ws/src/village_wang' returned '0': PYTHONPATH=/home/ros2/ros2_learn/turtle_ws/src/build/village_wang/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_wang build --build-base /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/build install --record /home/ros2/ros2_learn/turtle_ws/src/build/village_wang/install.log --single-version-externally-managed

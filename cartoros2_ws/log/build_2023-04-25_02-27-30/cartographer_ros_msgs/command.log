@@ -1,0 +1,4 @@
+Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs -- -j4 -l4
+Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs -- -j4 -l4
+Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs
+Invoked command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/cartoros2_ws/build/cartographer_ros_msgs

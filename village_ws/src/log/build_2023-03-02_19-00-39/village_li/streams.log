@@ -1,0 +1,25 @@
+[2.412s] Invoking command in '/home/ros2/ros2_learn/turtle_ws/src/village_li': PYTHONPATH=/home/ros2/ros2_learn/turtle_ws/src/build/village_li/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/village_li build --build-base /home/ros2/ros2_learn/turtle_ws/src/build/village_li/build install --record /home/ros2/ros2_learn/turtle_ws/src/build/village_li/install.log --single-version-externally-managed
+[3.270s] running egg_info
+[3.271s] writing ../build/village_li/village_li.egg-info/PKG-INFO
+[3.272s] writing dependency_links to ../build/village_li/village_li.egg-info/dependency_links.txt
+[3.273s] writing entry points to ../build/village_li/village_li.egg-info/entry_points.txt
+[3.274s] writing requirements to ../build/village_li/village_li.egg-info/requires.txt
+[3.277s] writing top-level names to ../build/village_li/village_li.egg-info/top_level.txt
+[3.421s] reading manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[3.426s] writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[3.426s] running build
+[3.427s] running build_py
+[3.427s] copying village_li/li3.py -> /home/ros2/ros2_learn/turtle_ws/src/build/village_li/build/lib/village_li
+[3.439s] running install
+[3.443s] running install_lib
+[3.448s] copying /home/ros2/ros2_learn/turtle_ws/src/build/village_li/build/lib/village_li/li3.py -> /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages/village_li
+[3.450s] byte-compiling /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages/village_li/li3.py to li3.cpython-38.pyc
+[3.459s] running install_data
+[3.459s] running install_egg_info
+[3.465s] removing '/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info' (and everything under it)
+[3.467s] Copying ../build/village_li/village_li.egg-info to /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info
+[3.470s] running install_scripts
+[3.533s] Installing li3_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/village_li
+[3.533s] Installing li4_node script to /home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/village_li
+[3.536s] writing list of installed files to '/home/ros2/ros2_learn/turtle_ws/src/build/village_li/install.log'
+[3.613s] Invoked command in '/home/ros2/ros2_learn/turtle_ws/src/village_li' returned '0': PYTHONPATH=/home/ros2/ros2_learn/turtle_ws/src/build/village_li/prefix_override:/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_interfaces/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages:/home/ros2/ros2_learn/turtle_ws/src/install/village_li/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/village_li build --build-base /home/ros2/ros2_learn/turtle_ws/src/build/village_li/build install --record /home/ros2/ros2_learn/turtle_ws/src/build/village_li/install.log --single-version-externally-managed

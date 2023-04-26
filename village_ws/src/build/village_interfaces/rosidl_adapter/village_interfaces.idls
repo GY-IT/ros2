@@ -1,0 +1,3 @@
+/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces/rosidl_adapter/village_interfaces:msg/Novel.idl
+/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces/rosidl_adapter/village_interfaces:srv/BorrowMoney.idl
+/home/ros2/ros2_learn/turtle_ws/src/build/village_interfaces/rosidl_adapter/village_interfaces:srv/SellNovel.idl

@@ -1,0 +1,65 @@
+[0.071s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/install/nav2_common
+[0.097s] -- Found ament_cmake_core: 1.1.6 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[0.128s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.132s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.240s] -- Found ament_cmake_python: 1.1.6 (/opt/ros/galactic/share/ament_cmake_python/cmake)
+[0.925s] -- Configuring done
+[0.933s] -- Generating done
+[0.936s] -- Build files have been written to: /home/ros2/ros2_learn/fishbot_ws/build/nav2_common
+[0.940s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/install/nav2_common
+[0.951s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/build/nav2_common -- -j4 -l4
+[1.068s] [35m[1mScanning dependencies of target ament_cmake_python_copy_nav2_common[0m
+[1.151s] Built target ament_cmake_python_copy_nav2_common
+[1.169s] [35m[1mScanning dependencies of target ament_cmake_python_build_nav2_common_egg[0m
+[1.707s] running egg_info
+[1.709s] creating nav2_common.egg-info
+[1.736s] writing nav2_common.egg-info/PKG-INFO
+[1.736s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.736s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.999s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.129s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.130s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.180s] Built target ament_cmake_python_build_nav2_common_egg
+[2.208s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/build/nav2_common -- -j4 -l4
+[2.313s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/fishbot_ws/build/nav2_common
+[2.345s] -- Install configuration: ""
+[2.345s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[2.346s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[2.347s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info
+[2.347s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info/top_level.txt
+[2.348s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info/PKG-INFO
+[2.349s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info/SOURCES.txt
+[2.351s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info/dependency_links.txt
+[2.352s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common
+[2.352s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch
+[2.352s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[2.353s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[2.353s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[2.353s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[2.354s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[2.463s] Listing '/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[2.464s] Compiling '/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py'...
+[2.464s] Listing '/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[2.464s] Compiling '/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py'...
+[2.465s] Compiling '/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py'...
+[2.465s] Compiling '/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py'...
+[2.465s] Compiling '/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[2.476s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[2.476s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[2.480s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[2.480s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[2.480s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[2.480s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[2.481s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[2.481s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[2.481s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[2.481s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[2.481s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/package.dsv
+[2.481s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[2.481s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[2.481s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[2.482s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[2.482s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/package.xml
+[2.482s] -- Up-to-date: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/cmake
+[2.483s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[2.496s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ros2/ros2_learn/fishbot_ws/build/nav2_common

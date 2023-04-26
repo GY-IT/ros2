@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2/ros2_learn/cartoros2_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros2/ros2_learn/cartoros2_ws/build/cartographer -- -j4 -l4

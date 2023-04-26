@@ -1,0 +1,5 @@
+  File "/home/ros2/ros2_learn/turtle_ws/src/install/village_wang/lib/python3.8/site-packages/village_wang/wang2.py", line 24
+    def novels_callback(self， infor):
+                            ^
+SyntaxError: invalid character in identifier
+

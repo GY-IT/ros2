@@ -1,0 +1,122 @@
+[0.066s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_lifecycle_manager -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager
+[0.193s] -- The C compiler identification is GNU 9.4.0
+[0.358s] -- The CXX compiler identification is GNU 9.4.0
+[0.364s] -- Check for working C compiler: /usr/bin/cc
+[0.571s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.574s] -- Detecting C compiler ABI info
+[0.819s] -- Detecting C compiler ABI info - done
+[0.860s] -- Detecting C compile features
+[0.860s] -- Detecting C compile features - done
+[0.872s] -- Check for working CXX compiler: /usr/bin/c++
+[1.178s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.178s] -- Detecting CXX compiler ABI info
+[1.616s] -- Detecting CXX compiler ABI info - done
+[1.649s] -- Detecting CXX compile features
+[1.650s] -- Detecting CXX compile features - done
+[1.654s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.690s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.692s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.950s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.116s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.470s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.600s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.190s] -- Found lifecycle_msgs: 1.0.3 (/opt/ros/galactic/share/lifecycle_msgs/cmake)
+[3.229s] -- Found nav2_common: 1.0.12 (/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/share/nav2_common/cmake)
+[3.229s] -- Found nav2_msgs: 1.0.12 (/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[4.244s] -- Found nav2_util: 1.0.12 (/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/share/nav2_util/cmake)
+[4.565s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[4.575s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[4.607s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.609s] -- Looking for pthread.h
+[4.762s] -- Looking for pthread.h - found
+[4.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.919s] -- Looking for pthread_create in pthreads
+[5.024s] -- Looking for pthread_create in pthreads - not found
+[5.025s] -- Looking for pthread_create in pthread
+[5.148s] -- Looking for pthread_create in pthread - found
+[5.149s] -- Found Threads: TRUE  
+[5.875s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[5.884s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.159s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[6.176s] -- Setting build type to Release as none was specified.
+[7.054s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.176s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.179s] -- Check if compiler accepts -pthread
+[7.280s] -- Check if compiler accepts -pthread - yes
+[8.089s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.091s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.091s] -- Configured cppcheck include dirs: /home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_lifecycle_manager/include
+[8.091s] -- Configured cppcheck exclude dirs and/or files: 
+[8.093s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.094s] -- Configured cpplint exclude dirs and/or files: 
+[8.094s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.095s] -- Added test 'lint_cmake' to check CMake code style
+[8.096s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.097s] -- Added test 'uncrustify' to check C / C++ code style
+[8.098s] -- Configured uncrustify additional arguments: 
+[8.098s] -- Added test 'xmllint' to check XML markup files
+[8.107s] -- Configuring done
+[8.234s] -- Generating done
+[8.237s] -- Build files have been written to: /home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager
+[8.254s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ros2_learn/fishbot_ws/src/navigation2/nav2_lifecycle_manager -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager
+[8.255s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager -- -j4 -l4
+[8.310s] [35m[1mScanning dependencies of target nav2_lifecycle_manager_core[0m
+[8.441s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o[0m
+[16.001s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager_client.cpp.o[0m
+[22.739s] [ 23%] [32m[1mLinking CXX shared library libnav2_lifecycle_manager_core.so[0m
+[23.013s] [ 23%] Built target nav2_lifecycle_manager_core
+[23.028s] [35m[1mScanning dependencies of target gtest_main[0m
+[23.054s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[24.574s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[24.629s] [ 38%] Built target gtest_main
+[24.646s] [35m[1mScanning dependencies of target lifecycle_manager[0m
+[24.735s] [ 46%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/main.cpp.o[0m
+[28.527s] [ 53%] [32m[1mLinking CXX executable lifecycle_manager[0m
+[28.743s] [ 53%] Built target lifecycle_manager
+[28.765s] [35m[1mScanning dependencies of target gtest[0m
+[28.794s] [ 61%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[40.611s] [ 69%] [32m[1mLinking CXX static library libgtest.a[0m
+[40.664s] [ 69%] Built target gtest
+[40.684s] [35m[1mScanning dependencies of target test_bond_gtest[0m
+[40.778s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_bond_gtest.dir/test_bond.cpp.o[0m
+[47.530s] [ 84%] [32m[1mLinking CXX executable test_bond_gtest[0m
+[47.854s] [ 84%] Built target test_bond_gtest
+[47.871s] [35m[1mScanning dependencies of target test_lifecycle_gtest[0m
+[47.975s] [ 92%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_gtest.dir/test_lifecycle_manager.cpp.o[0m
+[53.901s] [100%] [32m[1mLinking CXX executable test_lifecycle_gtest[0m
+[54.307s] [100%] Built target test_lifecycle_gtest
+[54.325s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager -- -j4 -l4
+[54.398s] Invoking command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager
+[54.411s] -- Install configuration: "Release"
+[54.411s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[54.412s] -- Set runtime path of "/home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so" to ""
+[54.412s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+[54.413s] -- Set runtime path of "/home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager" to ""
+[54.413s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/include/
+[54.413s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager
+[54.413s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+[54.413s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+[54.413s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+[54.414s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+[54.414s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+[54.414s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+[54.414s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+[54.414s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+[54.414s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+[54.415s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+[54.415s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+[54.415s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+[54.415s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+[54.415s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+[54.415s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+[54.416s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+[54.416s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[54.416s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[54.417s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.417s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+[54.417s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+[54.417s] -- Installing: /home/ros2/ros2_learn/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml
+[54.426s] Invoked command in '/home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_util/lib:/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ros2_learn/fishbot_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ros2/ros2_learn/fishbot_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ros2_learn/fishbot_ws/build/nav2_lifecycle_manager
